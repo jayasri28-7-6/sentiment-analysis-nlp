@@ -2,9 +2,6 @@ import pandas as pd
 import numpy as np
 import re
 import string
-import nltk
-from nltk.corpus import stopwords
-from nltk.stem import WordNetLemmatizer
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.naive_bayes import MultinomialNB # A good baseline for text classification
@@ -34,25 +31,14 @@ except Exception as e:
     exit()
 
 # --- 3. Text Preprocessing Functions ---
-print("\n--- Defining Text Preprocessing Steps ---")
-
-# Initialize NLTK components
-# IMPORTANT: Ensure NLTK data is downloaded by running the following once:
-# import nltk
-# nltk.download('stopwords')
-# nltk.download('wordnet')
-# nltk.download('punkt')
-
-stop_words = set(stopwords.words('english'))
-lemmatizer = WordNetLemmatizer()
+print("\n--- Defining Text Preprocessing Steps (Simplified - No NLTK) ---")
 
 def preprocess_text(text):
     text = text.lower() # Lowercasing
     text = re.sub(f'[{re.escape(string.punctuation)}]', '', text) # Remove punctuation
     text = re.sub(r'\d+', '', text) # Remove numbers
-    tokens = nltk.word_tokenize(text) # Tokenization
-    tokens = [word for word in tokens if word not in stop_words] # Remove stop words
-    tokens = [lemmatizer.lemmatize(word) for word in tokens] # Lemmatization
+    tokens = text.split() # Simple tokenization by whitespace
+    # No stop word removal or lemmatization without NLTK
     return ' '.join(tokens)
 
 # Apply preprocessing
