@@ -26,11 +26,11 @@ Follow these steps to set up and run the project locally.
 
 1.  **Clone the repository (or download the files):**
     ```
-    bash
-      https://github.com/YOUR_USERNAME/sentiment-analysis-nlp.git
-```
-    *(Note: Replace `YOUR_USERNAME` with your actual GitHub username and adjust the repo name if it's different)*
 
+      https://github.com/YOUR_USERNAME/sentiment-analysis-nlp.git
+
+    *(Note: Replace `YOUR_USERNAME` with your actual GitHub username and adjust the repo name if it's different)*
+```
 2.  **Create a virtual environment (recommended):**
     ```bash
     python -m venv venv
