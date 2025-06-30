@@ -25,12 +25,12 @@ Follow these steps to set up and run the project locally.
 ### Installation
 
 1.  **Clone the repository (or download the files):**
-   
     ```bash
     git clone [https://github.com/YOUR_USERNAME/sentiment-analysis-nlp.git](https://github.com/YOUR_USERNAME/sentiment-analysis-nlp.git)
-    cd sentiment-analysis-nlp    
-```
+    cd sentiment-analysis-nlp
+    ```
     *(Note: Replace `YOUR_USERNAME` with your actual GitHub username and adjust the repo name if it's different)*
+
 2.  **Create a virtual environment (recommended):**
     ```bash
     python -m venv venv
@@ -66,6 +66,7 @@ Follow these steps to set up and run the project locally.
     ```
 
 ## Project Structure
+
 ```
 sentiment-analysis-nlp/
 ├── README.md
