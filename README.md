@@ -29,8 +29,7 @@ Follow these steps to set up and run the project locally.
     ```bash
        https://github.com/YOUR_USERNAME/sentiment-analysis-nlp.git
    
-    git clone(https://github.com/YOUR_USERNAME/sentiment-analysis-nlp.git)
-    cd sentiment-analysis-nlp
+    
     ```
     *(Note: Replace `YOUR_USERNAME` with your actual GitHub username and adjust the repo name if it's different)*
 
