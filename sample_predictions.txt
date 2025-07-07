@@ -1,0 +1,19 @@
+--- Sample Sentiment Predictions ---
+
+Text: "This is an absolutely fantastic product, highly recommend it!"
+Predicted Sentiment: positive
+
+Text: "The service was incredibly slow and disappointing."
+Predicted Sentiment: negative
+
+Text: "The package arrived, it's just a regular item."
+Predicted Sentiment: neutral
+
+Text: "Feeling great about today's progress, very optimistic."
+Predicted Sentiment: positive
+
+Text: "I had a terrible experience with their support, absolutely frustrating."
+Predicted Sentiment: negative
+
+Text: "It's a decent quality for the price, nothing exceptional but it works."
+Predicted Sentiment: neutral
