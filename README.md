@@ -32,9 +32,8 @@ Follow these steps to set up and run the project locally.
 ### Installation
 
 1.  **Clone the repository (or download the files):**
-    ```
-   https://github.com/YOUR_USERNAME/sentiment-analysis-nlp.git
-    
+    ```bash
+    https://github.com/YOUR_USERNAME/sentiment-analysis-nlp.git
     ```
     *(Note: Replace `YOUR_USERNAME` with your actual GitHub username and adjust the repo name if it's different)*
 
