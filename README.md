@@ -77,7 +77,8 @@ sentiment-analysis-nlp/
 ├── README.md
 ├── requirements.txt
 ├── data_generator.py          
-├── sentiment_analyzer.py      
+├── sentiment_analyzer.py
+├── sample_predictions.txt
 ```
 ## Dependencies
 
